@@ -1,0 +1,10 @@
+{
+  "name": "todolist",
+  "version": "0.0.0",
+  "description": "A simple to-do list example for implementation of crud operation in mongo",
+  "main": "index.js",
+  "dependencies": {
+    "express": "*",
+	"q": "*"
+  }
+}

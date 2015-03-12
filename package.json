@@ -3,13 +3,35 @@
   "version": "0.0.0",
   "description": "wrapper for mongodb",
   "main": "main.js",
-  "dependencies": {
-    "mongodb": "*",
-    "q": "*",
-    "mquery": "*",
-    "ramda": "*"
+  "directories": {
+    "example": "example"
   },
-  "devDependencies": {
-    "memory-cache": "~0.1.1"
-  }
+  "dependencies": {
+    "memory-cache": "^0.1.1",
+    "mongoose": "^3.8.21",
+    "mongodb": "^1.4.29",
+    "ramda": "^0.10.0",
+    "mquery": "^1.3.0",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bron10/mongo-muffle.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "nosql"
+  ],
+  "author": "Bruno Dmello <bron1010@gmail.com>",
+  "contributors" : [{
+    "name" : "Chetan Kantharia",
+    "email" : "chetan.kantharia@gmail.com"
+    }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bron10/mongo-muffle/issues"
+  },
+  "homepage": "https://github.com/bron10/mongo-muffle"
 }
